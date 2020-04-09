@@ -10,5 +10,8 @@
     <string name="button2">two points</string>
     <string name="button3">three points</string>
     <string name="butt2">reset</string>
-
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="rmb_hint">Input RMB</string>
 </resources>

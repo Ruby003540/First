@@ -11,4 +11,8 @@
     <string name="button3">三分</string>
     <string name="textview1">队名</string>
     <string name="textview2">0</string>
+    <string name="btn_dollar_label">美元</string>
+    <string name="rmb_hint">请输入人民币</string>
+    <string name="btn_euro_label">欧元</string>
+    <string name="btn_won_label">韩元</string>
 </resources>
