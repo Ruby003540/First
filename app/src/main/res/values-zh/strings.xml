@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">First</string>
-    <string name="ab">登录</string>
     <string name="action_settings">设置</string>
-    <string name="str">生日快乐！</string>
-    <string name="strr">汤姆</string>
+    <string name="commit">转化为华氏温度</string>
+    <string name="hint">请输入温度</string>
+    <string name="result">结果是：</string>
+    <string name="butt2">重置</string>
+    <string name="button1">一分</string>
+    <string name="button2">两分</string>
+    <string name="button3">三分</string>
+    <string name="textview1">队名</string>
+    <string name="textview2">0</string>
 </resources>
