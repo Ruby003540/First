@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="40dp"
         android:onClick="reset"
         android:textSize="15sp"
         android:text="@string/butt2" />
