@@ -1,7 +1,6 @@
 package com.Ruby.first;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -62,7 +61,7 @@ public class RateActivity extends AppCompatActivity implements Runnable {
 
         //获取当前系统时间
        Date today = Calendar.getInstance().getTime();
-       SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+       SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMdd");
        final String todayStr=sdf.format(today);
 
         Log.i(TAG, "onCreate: dollarRate=" + dollarRate);
@@ -70,6 +69,9 @@ public class RateActivity extends AppCompatActivity implements Runnable {
         Log.i(TAG, "onCreate: wonRate=" + wonRate);
         Log.i(TAG, "onCreate: update_date=" + updateDate);
         //判断时间
+        int now=Integer.parseInt(todayStr);
+        int update=Integer.parseInt(updateDate);
+
         if(!todayStr.equals(updateDate)){
             Log.i(TAG,"onCreate: 需要更新");
             //开启子线程

@@ -18,4 +18,7 @@
     <string name="btn_open">配置汇率</string>
     <string name="btn_save_label">保存</string>
     <string name="label_open_list">打开列表</string>
+    <string name="label_keyword">请输入查询内容</string>
+    <string name="label_kresult">"    "</string>
+    <string name="btn_search">搜索</string>
 </resources>

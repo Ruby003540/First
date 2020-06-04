@@ -17,6 +17,7 @@
     <string name="btn_open">Config</string>
     <string name="btn_save_label">Save</string>
     <string name="label_open_list">OpenList</string>
-
-
+    <string name="label_keyword">please input words</string>
+    <string name="label_kresult"> </string>
+    <string name="btn_search">Search</string>
 </resources>
