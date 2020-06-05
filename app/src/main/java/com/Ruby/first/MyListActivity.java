@@ -2,6 +2,7 @@ package com.Ruby.first;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
@@ -17,7 +18,7 @@ public class MyListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_list);
 
-        ListView listview=(ListView)findViewById(R.id.mylist);
+       GridView listview=(GridView)findViewById(R.id.mylist);
 
         for(int i=0;i<10;i++){
             data.add("item"+i);
